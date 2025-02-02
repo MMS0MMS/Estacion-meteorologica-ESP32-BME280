@@ -1,7 +1,7 @@
 # Estacion-meteorologica-ESP32-BME280
-Este repositorio contiene el código fuente desarrollado para un proyecto de estación meteorológica basada en un microcontrolador ESP32. El código obtiene datos ambientales de un sensor BME280, que mide temperatura, presión y humedad, y envía estos datos a la plataforma ThingSpeak para su visualización y análisis. La comunicación con ThingSpeak se realiza mediante solicitudes HTTP.
+Este repositorio contiene el código desarrollado para un proyecto de estación meteorológica basada en un microcontrolador ESP32. El código obtiene datos ambientales de un sensor BME280, que mide temperatura, presión y humedad, y envía estos datos a la plataforma ThingSpeak para su visualización y análisis. La comunicación con ThingSpeak se realiza mediante solicitudes HTTP.
 
-El repositorio contiene el archivo principal de código "EstacionMetESP32.src" que incluye la configuración de la red WiFi, la inicialización del sensor, la lectura de los datos del sensor y el envío a ThingSpeak. Además a continuación puedes obtener información sobre cómo configurar y probar el proyecto.
+El repositorio contiene el archivo principal de código "EstacionMetESP32.ino" que incluye la configuración de la red WiFi, la inicialización del sensor, la lectura de los datos del sensor y el envío a ThingSpeak. Además a continuación puedes obtener información sobre cómo configurar y probar el proyecto.
 
 Instrucciones básicas para probar el código desarrollado:
 1.	Conexión del hardware:
