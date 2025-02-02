@@ -17,11 +17,11 @@ Instrucciones básicas para probar el código desarrollado:
 3.	Configura las credenciales de la red WiFi y la API de ThingSpeak:
 - Abre el archivo del código y cambia las siguientes líneas con las credenciales correctas de tu red WiFi:
   - const char* WIFI_SSID = "tu_red_wifi";
-  -  const char* WIFI_PASS = "tu_contraseña_wifi";
-- También necesitarás una cuenta de ThingSpeak. Si no tienes una, ves a https://thingspeak.mathworks.com/ y crea una cuenta. Cuando la tengas crea un canal con las variables que quieres medir. Reemplaza la API Key en el código donde dice:
-  - const char* API_KEY = "tu_api_key";
-- Y la url que permite escritura en el canal:
-  - const char* THINGSPEAK_URL = "tu_url_del_canal";
+  - const char* WIFI_PASS = "tu_contraseña_wifi";
+- También necesitarás una cuenta de ThingSpeak. Si no tienes una, ves a https://thingspeak.mathworks.com/ y crea una cuenta. Cuando la tengas, reemplaza tu User API Key en el código donde dice:
+  - const char* API_KEY = "user_api_key";
+- Crea un canal con las variables que vas a medir. Cuando lo tengas reemplaza la url que permite escritura en el canal donde dice:
+  - const char* THINGSPEAK_URL = "url_channel";
 
 4.	Carga el código al ESP32:
 - Conecta el ESP32 a tu computadora a través del puerto USB y selecciona la placa correcta en el IDE de Arduino.
